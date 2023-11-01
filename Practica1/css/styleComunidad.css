@@ -1,0 +1,120 @@
+body {
+    font-family: Andale Mono, monospace;
+    background-color: #305360 ;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #263541;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    max-width: 100px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.back{
+    background-image: linear-gradient(rgba(0,0,0,0.7), #305360),url(/img/vzi20k54wdn61.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.capturas{
+    width: 900px;
+    height: 800px;
+}
+.captura1, .captura2, .captura3{
+    background-color: #263541;
+    width: 100%;
+    height: 360px;
+}
+.captura1 img{
+    width:880px;
+    margin: 10px;
+}
+.captura1 p{
+    margin: 10px;
+}
+.join{
+    display: flex;
+}
+.captura2{
+
+    width: 500px;
+
+}
+.captura2 img{
+    width:480px;
+    height: 300px;
+    margin: 10px;
+}
+.captura3{
+    width: 390px;
+    margin-left: 10px;
+
+}
+.captura3 img{
+    width:370px;
+    height: 300px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #263541;
+    color: rgb(99, 98, 98);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.redes-sociales a {
+    color: rgb(182, 182, 182);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
